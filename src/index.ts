@@ -1,7 +1,7 @@
 let btnEnviar = document.getElementById("enviar");
 
 btnEnviar.addEventListener("click", () => {
-  let posicionLlegada : number = Number (dato1.value);
+  let posicionLlegada: number = Number(dato1.value);
   if (posicionLlegada === 1) {
     console.log("Entregar medalla de oro");
   } else {
@@ -14,4 +14,5 @@ btnEnviar.addEventListener("click", () => {
         console.log("Entregar mencion de Participacion");
       }
     }
-  });
+  }
+});
